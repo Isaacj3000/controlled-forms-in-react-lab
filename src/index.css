@@ -7,3 +7,33 @@ body {
   min-width: 100vw;
   min-height: 100vh;
 }
+body {
+  background-color: rgb(250, 247, 247); /* Set the background to white */
+  color: green; /* Set the text color to green */
+  font-family: Arial, sans-serif; /* Optional: set a nice font */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: green; /* Set the headings color to green */
+}
+
+h1 {
+  display: flex;
+  margin-top: 0;
+  justify-content: center;
+}
+
+
+
+a {
+  color: green; /* Set link color to green */
+}
+
+a:hover {
+  color: darkgreen; /* Darker green on hover for links */
+}
+
+.container {
+  border: 2px solid green; /* Optional: add a green border around a container */
+  padding: 20px; /* Optional: padding for spacing */
+}
